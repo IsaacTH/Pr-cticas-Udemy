@@ -25,7 +25,7 @@ int main (int argc, char *argv[]) {
     printf("Introduce el codigo: ");
     scanf("%d", &prod->codigo);
     printf("Introduce la descripcion: ");
-    scanf("%s", &prod->descripcion);
+    scanf("%s", prod->descripcion);
     printf("Introduce el precio: ");
     scanf("%f", &prod->precio);
 

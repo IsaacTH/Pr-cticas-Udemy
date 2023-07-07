@@ -14,9 +14,9 @@ int main (int argc, char *argv[]) {
     
     caracter = getchar();
 
-    int i = 0, pos = -1;
+    int i = 0, pos = '1';
     
-    while (cadena[i] != '\0' && pos == -1){
+    while (cadena[i] != '\0' && pos == '1'){
         if (cadena[i] == caracter)
         {
             pos = i;
@@ -24,7 +24,7 @@ int main (int argc, char *argv[]) {
         i += 1;
     }
     
-    if (pos != -1){
+    if (pos != '1'){
         printf("El caracter %c se encuentra en la cadena %s en la posicion %d", caracter, cadena, pos);
     }
     else{
